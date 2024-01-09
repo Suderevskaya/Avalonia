@@ -1,0 +1,72 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:AvaloniaApplication1.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="550"
+             x:Class="AvaloniaApplication1.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+  <Grid ColumnDefinitions="500*,500*" RowDefinitions="500*,50">
+    <Button x:Name="Start" FontSize="30" Content="Start" HorizontalContentAlignment="Center" Click="ClickStart" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="0" />
+    <Button x:Name="Check" FontSize="30" Content="Check" HorizontalContentAlignment="Center" Click="ClickCheck" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="1" />
+    <UniformGrid x:Name="Second" Rows="5" Columns="5" Grid.Row="0" Grid.Column="0">
+      <Button x:Name="b100" Background="{Binding Color100}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b101" Background="{Binding Color101}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b102" Background="{Binding Color102}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b103" Background="{Binding Color103}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b104" Background="{Binding Color104}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b105" Background="{Binding Color105}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b106" Background="{Binding Color106}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b107" Background="{Binding Color107}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b108" Background="{Binding Color108}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b109" Background="{Binding Color109}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b110" Background="{Binding Color110}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b111" Background="{Binding Color111}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b112" Background="{Binding Color112}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b113" Background="{Binding Color113}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b114" Background="{Binding Color114}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b115" Background="{Binding Color115}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b116" Background="{Binding Color116}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b117" Background="{Binding Color117}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b118" Background="{Binding Color118}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b119" Background="{Binding Color119}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b120" Background="{Binding Color120}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b121" Background="{Binding Color121}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b122" Background="{Binding Color122}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b123" Background="{Binding Color123}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b124" Background="{Binding Color124}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </UniformGrid>
+    <UniformGrid x:Name="Third" Rows="5" Columns="5" Grid.Row="0" Grid.Column="1">
+      <Button x:Name="b0" Click="ClickButton0" Background="{Binding Color0}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b1" Click="ClickButton1" Background="{Binding Color1}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b2" Click="ClickButton2" Background="{Binding Color2}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b3" Click="ClickButton3" Background="{Binding Color3}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b4" Click="ClickButton4" Background="{Binding Color4}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b5" Click="ClickButton5" Background="{Binding Color5}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b6" Click="ClickButton6" Background="{Binding Color6}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b7" Click="ClickButton7" Background="{Binding Color7}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b8" Click="ClickButton8" Background="{Binding Color8}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b9" Click="ClickButton9" Background="{Binding Color9}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b10" Click="ClickButton10" Background="{Binding Color10}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b11" Click="ClickButton11" Background="{Binding Color11}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b12" Click="ClickButton12" Background="{Binding Color12}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b13" Click="ClickButton13" Background="{Binding Color13}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b14" Click="ClickButton14" Background="{Binding Color14}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b15" Click="ClickButton15" Background="{Binding Color15}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b16" Click="ClickButton16" Background="{Binding Color16}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b17" Click="ClickButton17" Background="{Binding Color17}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b18" Click="ClickButton18" Background="{Binding Color18}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b19" Click="ClickButton19" Background="{Binding Color19}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b20" Click="ClickButton20" Background="{Binding Color20}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b21" Click="ClickButton21" Background="{Binding Color21}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b22" Click="ClickButton22" Background="{Binding Color22}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b23" Click="ClickButton23" Background="{Binding Color23}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+      <Button x:Name="b24" Click="ClickButton24" Background="{Binding Color24}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </UniformGrid>
+  </Grid>
+</UserControl>
